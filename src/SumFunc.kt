@@ -4,9 +4,9 @@ fun main(){
 
 }
 // a function that add two numbers
-fun plus(a : Int, b:Int):Int{
+fun plus(a : Int, b:Int):Unit{
     val sum = a+b
    println("The sum of $a and $b is $sum")
-    return 0
+   
 
 }
